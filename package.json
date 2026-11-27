@@ -1,0 +1,20 @@
+{
+  "name": "mingdian-oral-history",
+  "version": "0.1.0",
+  "private": false,
+  "description": "明典人生：长辈口述传记访谈系统。开源访谈框架，比 C 端产品更懂学术伦理，比学术工具更懂适老化交互。 An open-source elder oral-history interview framework: research-ethics-aware and elder-friendly, with deterministic rule guardrails and an optional LLM provider.",
+  "license": "Apache-2.0",
+  "author": "jiulingzi3257",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "install:server": "npm install --prefix server",
+    "install:web": "npm install --prefix web",
+    "install:all": "npm run install:server && npm run install:web",
+    "dev:server": "npm run dev --prefix server",
+    "dev:web": "npm run dev --prefix web",
+    "build": "npm run build --prefix web",
+    "start": "npm start --prefix server"
+  }
+}

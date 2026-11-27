@@ -1,0 +1,20 @@
+cff-version: 1.2
+message: "If you use this software in your research, please cite it as below. 若在研究中使用本软件，请按下列格式引用。"
+title: "明典人生：长辈口述传记访谈系统 (Mingdian Life: Elder Oral-History Biography Interview System)"
+type: software
+version: 0.1.0
+authors:
+  - name: "jiulingzi3257"
+license: Apache-2.0
+repository-code: "https://github.com/jiulingzi3257/mingdian-oral-history"
+abstract: "以晚辈口吻陪长辈访谈、按多尺度时间线采集生平素材并做证据分级的全栈原型；确定性规则层承担门禁、计数与留档，模型仅负责自然语言生成，产出网页时间轴、Word 传记与结构化档案表。 A full-stack prototype that conducts elder life-story interviews in a respectful, junior-companion tone, aggregates material onto a multi-scale timeline with evidence grading; a deterministic rule layer handles guardrails, counts and archiving, while the model only generates natural language. Outputs include a web timeline, a Word biography and a structured archive table."
+keywords:
+  - oral history
+  - life review
+  - elder care
+  - research ethics
+  - digital humanities
+  - react
+  - express
+  - knowledge base
+date-released: 2026-11-27

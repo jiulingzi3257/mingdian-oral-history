@@ -1,0 +1,14 @@
+# 自动识别文本文件并归一换行符 / Normalize line endings for text files
+* text=auto eol=lf
+
+# CSV 档案表：保留 UTF-8 BOM（中文 Excel 识别），换行按 CRLF
+# CSV archive exports keep the UTF-8 BOM for Chinese Excel; CRLF line endings.
+*.csv text eol=crlf working-tree-encoding=UTF-8
+
+# 二进制资源不做换行归一 / Binary assets are left untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.xlsx binary
+*.pdf binary

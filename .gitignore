@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment credentials: keep .env out of version control, but ship the example template
+.env
+.env.*
+!server/.env.example
+
+# Runtime database (interview / consent / event records; never published)
+server/data/db.json
+
+# Logs and editor files
+*.log
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Temporary probe / scratch dirs
+_tmp/
